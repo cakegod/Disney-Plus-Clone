@@ -19,7 +19,7 @@ export const AllDevicesSection = forwardRef(function AllDevicesSection(
 					className='w-full h-auto max-w-3xl min-w-[350px]'
 				/>
 				<div className='min-w-[250px] md:px-4 flex flex-col items-center'>
-					<h2 className='text-xl lg:text-3xl md:text-2xl font-bold text-white py-4'>
+					<h2 className='text-xl lg:text-4xl md:text-2xl font-bold text-white py-4'>
 						Watch the way you want
 					</h2>
 					<ul className='list-disc w-full px-6 lg:px-10 text-lg lg:text-2xl md:text-xl font-light'>

@@ -6,7 +6,9 @@ interface Props {
 
 function ScrollButton({ handleScroll }: Props) {
 	return (
-		<button onClick={handleScroll} className="absolute md:bottom-15 bottom-5 animate-bounce  translate-x-[-50%] ">
+		<button
+			onClick={handleScroll}
+			className='absolute md:bottom-15 bottom-5 animate-bounce  translate-x-[-50%] hover:brightness-125 transition-color'>
 			<svg
 				className='w-10 h-10 fill-gray-300 '
 				data-name='Layer 1'
