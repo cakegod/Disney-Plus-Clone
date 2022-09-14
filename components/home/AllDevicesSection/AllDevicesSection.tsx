@@ -44,7 +44,7 @@ export const AllDevicesSection = forwardRef(function AllDevicesSection(
 					</ul>
 				</div>
 			</div>
-			<SignInUp />
+			<SignInUp extraStyles="my-16"/>
 		</section>
 	);
 });
