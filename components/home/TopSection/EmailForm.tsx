@@ -1,8 +1,9 @@
 import Image from 'next/future/image';
-import SignInUp from './SignUpButton';
+import SignInUp from '../Shared/SignUpButton';
 
 export default function EmailForm() {
 	return (
+		<>
 		<div className=' flex flex-col gap-4 items-center max-w-lg lg:text-xl lg:items-start lg:px-0 pt-60 text-center lg:text-left'>
 			<Image src='/assets/logo.svg' width={180} height={97} alt='disney logo' />
 			<h1 className='text-white z-10 text-2xl lg:text-4xl font-medium tracking-wide'>
@@ -25,5 +26,6 @@ export default function EmailForm() {
 				subscription, compared to paying monthly.
 			</p>
 		</div>
+			</>
 	);
 }
