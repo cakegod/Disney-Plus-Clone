@@ -8,7 +8,7 @@ export const AllDevicesSection = forwardRef(function AllDevicesSection(
 ) {
 	return (
 		<section
-			className='bg-[#040714] p-8 flex flex-col items-center justify-center h-screen'
+			className='bg-[#040714] p-8 flex flex-col items-center justify-center min-h-screen'
 			ref={ref}>
 			<div className='flex flex-col lg:flex-row items-center'>
 				<Image

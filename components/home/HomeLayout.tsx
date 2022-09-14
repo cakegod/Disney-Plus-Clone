@@ -3,5 +3,5 @@ interface Props {
 }
 
 export default function HomeLayout({ children }: Props) {
-	return <main className='h-screen'>{children}</main>;
+	return <main className='h-full min-h-screen'>{children}</main>;
 }
