@@ -1,10 +1,10 @@
 import Image from 'next/future/image';
-import { forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import SignInUp from '../Shared/SignUpButton';
 
 export const AllDevicesSection = forwardRef(function AllDevicesSection(
 	props,
-	ref,
+	ref: ForwardedRef<HTMLElement>,
 ) {
 	return (
 		<section
@@ -44,7 +44,7 @@ export const AllDevicesSection = forwardRef(function AllDevicesSection(
 					</ul>
 				</div>
 			</div>
-			<SignInUp extraStyles="my-16"/>
+			<SignInUp extraStyles='my-16' text="Sign in up" />
 		</section>
 	);
 });
