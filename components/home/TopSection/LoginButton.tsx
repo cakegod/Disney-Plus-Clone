@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function LoginButton() {
 	return (
-		<button className='uppercase border border-white hover:bg-white hover:text-black transition-all hover:transition-all bg-black/90 w-20 h-12 lg:w-28 lg:h-14 text-lg lg:text-xl tracking-wide rounded-md right-10 top-3 fixed'>
+		<button className='fixed right-10 top-3 h-12 w-20 rounded-md border border-white bg-black/90 text-lg uppercase tracking-wide transition-all hover:bg-white hover:text-black hover:transition-all lg:h-14 lg:w-28 lg:text-xl'>
 			<Link href='/login'>Log in</Link>
 		</button>
 	);

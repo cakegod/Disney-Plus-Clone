@@ -8,21 +8,21 @@ export const AllDevicesSection = forwardRef(function AllDevicesSection(
 ) {
 	return (
 		<section
-			className='bg-[#040714] p-8 flex flex-col items-center justify-center min-h-screen'
+			className='flex min-h-screen flex-col items-center justify-center bg-[#040714] p-8'
 			ref={ref}>
-			<div className='flex flex-col lg:flex-row items-center'>
+			<div className='flex flex-col items-center lg:flex-row'>
 				<Image
 					src='/assets/all-devices.png'
 					width={1920}
 					height={1080}
 					alt='all devices'
-					className='w-full h-auto max-w-3xl min-w-[350px]'
+					className='h-auto w-full min-w-[350px] max-w-3xl'
 				/>
-				<div className='min-w-[250px] md:px-4 flex flex-col items-center'>
-					<h2 className='text-xl lg:text-4xl md:text-2xl font-bold text-white py-4'>
+				<div className='flex min-w-[250px] flex-col items-center md:px-4'>
+					<h2 className='py-4 text-xl font-bold text-white md:text-2xl lg:text-4xl'>
 						Watch the way you want
 					</h2>
-					<ul className='list-disc w-full px-6 lg:px-10 text-lg lg:text-2xl md:text-xl font-light'>
+					<ul className='w-full list-disc px-6 text-lg font-light md:text-xl lg:px-10 lg:text-2xl'>
 						<li className='pb-4'>
 							Host virtual movie nights with GroupWatch. Pause, rewind and react
 							with up to six personal friends. To invite or be invited to join
@@ -44,7 +44,7 @@ export const AllDevicesSection = forwardRef(function AllDevicesSection(
 					</ul>
 				</div>
 			</div>
-			<SignInUp extraStyles='my-16' text="Sign in up" />
+			<SignInUp extraStyles='my-16' text='Sign in up' />
 		</section>
 	);
 });

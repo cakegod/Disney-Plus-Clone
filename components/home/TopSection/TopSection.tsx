@@ -8,7 +8,7 @@ interface Props {
 
 export default function TopSection({ handleScroll }: Props) {
 	return (
-		<section className='lg:bg-[url("../public/assets/pc-background.jpeg")] bg-[url("../public/assets/mobile-background.jpeg")] bg-cover bg-[position:50%] min-h-screen z-0 top-0 bottom-0 right-0 left-0 lg:px-16 px-8 py-6 flex justify-center lg:justify-start mb-[-3px]'>
+		<section className='top-0 bottom-0 right-0 left-0 z-0 mb-[-3px] flex min-h-screen justify-center bg-[url("../public/assets/mobile-background.jpeg")] bg-cover bg-[position:50%] px-8 py-6 lg:justify-start lg:bg-[url("../public/assets/pc-background.jpeg")] lg:px-16'>
 			<LoginButton />
 			<EmailForm />
 			<ScrollButton handleScroll={handleScroll} />

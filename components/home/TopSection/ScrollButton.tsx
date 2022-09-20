@@ -8,9 +8,9 @@ function ScrollButton({ handleScroll }: Props) {
 	return (
 		<button
 			onClick={handleScroll}
-			className='absolute md:bottom-15 bottom-5 animate-bounce  translate-x-[-50%] hover:brightness-125 transition-color'>
+			className='md:bottom-15 transition-color absolute bottom-5  translate-x-[-50%] animate-bounce hover:brightness-125'>
 			<svg
-				className='w-10 h-10 fill-gray-300 '
+				className='h-10 w-10 fill-gray-300 '
 				data-name='Layer 1'
 				xmlns='http://www.w3.org/2000/svg'
 				viewBox='0 0 48 48'>
